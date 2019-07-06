@@ -1,0 +1,506 @@
+body{
+	font-family: 'Amatic SC', cursive;
+	background-color: #585c5e;
+	overflow-x: hidden;
+	
+}
+.name h1{
+    margin-bottom:100px; 
+	color: white;
+	
+}
+
+	
+
+.background{
+	background-color: grey;
+	border-radius: 200px;
+	width: 330px;
+	height: 330px;
+    border:3px solid yellow;
+    /*top: 35px;*/
+    left:-40px;
+		margin-top: 90px;
+		
+
+}
+	
+  
+
+    
+
+.background img{
+	/*padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;*/
+	position: absolute;
+	/*border:2px solid white;*/
+	background-size: cover;
+	height: 373px;
+	width: 255px;
+	/*margin-left: -27px;*/
+	/*margin-top: -12px;*/
+    left:37px;
+    top: -49px;
+
+
+}
+
+
+
+
+/*//-----------Contact-------//*/
+ .contact {
+ color: yellow;
+ 
+}
+.fa{
+	color: yellow;
+	font-size: .5em !important;
+
+}
+.rosica p{
+	font-size: 2em;
+	color: white;
+	/*border-bottom: 1px solid #ffc600;*/
+}
+.mobile{
+	font-size: .8em !important;
+}
+.rosica a{
+	display:block;
+	text-decoration: none;
+	color:#fff;
+	font-size: 1.5em;
+}
+
+
+
+/*//-----------social networks-----//*/
+.linkedin{
+	font-size:  .9em !important;
+	
+}
+   
+.linkedin a{
+	border-top: 1px solid #ffc600;
+} 
+a:hover{
+	color:#f4eb42;
+	text-decoration: none;
+
+}
+
+.facebook{
+	font-size:  .9em !important;
+
+}
+.twitter{
+	font-size:  .9em !important;
+
+}
+
+
+
+
+/*//----------languages------//*/
+
+.macedon h4{
+	font-size:  2em;
+	color: white;
+}
+
+.macedon{
+	margin-left: 50px;
+}
+.macedon lead{
+	color: yellow ! important;
+}
+
+.languages{
+ color: yellow;
+
+}
+
+p{
+	font-size:  1.5em;
+	color: white;
+}
+
+.looking{
+	margin-top: -50px;
+}
+
+.looking li{
+	color: white;
+	display:inline;
+	list-style: none;
+	font-size: 1.8em;
+	margin-left: 2px;
+	
+}
+.looking h4{
+	margin-top: 100px;
+	color: yellow;
+	font-size: 2.5em;
+	margin-top: 150px;
+
+}
+
+
+
+.fa-check-square-o{
+	font-size: 1em ! important;
+}
+.fa-times{
+	font-size: 1em ! important;
+
+
+}
+
+
+
+
+.speech{
+	margin-top: 150px;
+	position: relative;
+    text-align: center;
+    background-color: transparent;
+    border: 8px solid #666;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px #888;
+    width: 300px;
+    margin-left: -40px;
+}
+   
+
+
+p.speech:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30px;
+  top: -55px;
+  border: 25px solid;
+  border-color:  transparent transparent #666;
+ 
+}
+ 
+ .work{
+ 	margin-left: -70px;
+ } 
+
+.work h4{
+	margin-top: 100px;
+	margin-bottom: 40px;
+	color: yellow;
+	font-size: 2.5em;
+}
+
+
+.green{
+	background-color: green;
+	border-radius: 100px
+}
+
+
+
+.edu{
+	margin-bottom: 100px;
+	margin-top: 40px;
+}
+
+
+.edu h4{
+	margin-top: 30px;
+	color: yellow;
+	font-size: 2.5em;
+	margin-top: 80px;
+}
+
+.edu li{
+	font-size:  1.5em;
+	color: white;
+}
+
+
+.front a{
+	font-size: 1.5em;
+}
+
+
+.over h4{
+	margin-top: 80px;
+}
+
+
+.over{
+	height: 330px;
+	width: 450px;
+	overflow-y: scroll;
+	background-color: transparent;
+	
+}
+
+
+.over::-webkit-scrollbar{
+  width:20px;
+} 
+
+
+.over::-webkit-scrollbar-thumb{
+  background-color:rgba(0,0,0,0);
+} 
+
+
+.project h4{
+	margin-bottom: 40px;
+	color: yellow;
+	font-size: 2.5em;
+	margin-top: 100px;
+}
+
+
+.project li{
+	color: white;
+	
+	font-size: 1.5em ! important;
+	
+}
+
+
+.project{
+	height: 430px;
+	width: 450px;
+	overflow-y: scroll;
+	background-color: transparent;
+}
+
+
+.project::-webkit-scrollbar{
+  width:20px;
+} 
+
+
+.project::-webkit-scrollbar-thumb{
+  background-color:rgba(0,0,0,0);
+}  
+
+
+.top_skills li{
+	color: white;
+	display:inline;
+	list-style: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 1.8em;
+	margin-left:3px;
+	border:1px solid yellow;
+	border-radius: 7px;
+}
+.top_skills h4{
+	margin-top: 100px;
+	color: yellow;
+	font-size: 2.5em;
+	margin-top: 150px;
+}
+
+.top_skills{
+	margin-left: -60px;
+	margin-top: -50px;
+
+}
+
+.passion h4{
+	margin-top: 100px;
+	margin-bottom: 40px;
+	color: yellow;
+	font-size: 2.5em;
+
+}
+.passion li{
+	color: white;
+	font-size: 1.5em;
+	margin-top: 15px;
+}
+.fa-music{
+	
+	font-size: 2em ! important;
+}
+.fa-camera{
+	
+	font-size: 2em ! important;
+}
+.fa-film{
+
+	font-size: 2em ! important;
+}
+.fa-bicycle{
+	
+	font-size: 2em ! important;
+}
+
+
+
+.school{
+	height: 330px;
+	width: 450px;
+	overflow-y: scroll;
+	background-color: transparent;
+    margin-left: 170px;
+}
+
+.school::-webkit-scrollbar{
+  width:20px;
+} 
+
+.school::-webkit-scrollbar-thumb{
+  background-color:rgba(0,0,0,0);
+}  
+
+.school a{
+	display:block;
+	text-decoration: none;
+	color:#fff;
+	font-size: 1em;
+}
+.school a:hover{
+	color:yellow;
+}
+.project a{
+	display:block;
+	text-decoration: none;
+	color:#fff;
+	font-size: 1em;
+}
+.project a:hover{
+	color: yellow;
+}
+
+
+@media(max-width:768px){
+	
+    .name h1{
+    	width: 100%;
+    	margin-left: 10px;
+    }
+
+	.macedon{
+		margin-top: 70px;
+
+	}
+
+	.speech{
+		display: none;
+	}
+
+	.looking{
+
+	    margin-left: 50px;
+	}
+	.looking li{
+	    font-size: 1.5em;
+	    display: block;
+	}
+    
+    .top_skills{
+        margin-left: 10px;
+
+    }
+    .top_skills li{
+    	display:block;
+    	margin-top: 10px;
+    	
+    }
+    .over{
+    	font-size: 1em;
+    	margin-top: 100px;
+    	margin-bottom: 100px;
+    	margin-left: 30px;
+    	width: 250px;
+
+    }
+    .school{
+        
+        margin-left: 20px;
+    	
+    }
+
+
+    .project{
+    	margin-left: 40px;
+
+    }
+    
+
+    .work img{
+    	margin-left: 90px;
+
+    }
+    
+
+    .passion{
+    	margin-left: 50px;
+    }
+    .background {
+    	margin-left: 50px;
+    	
+    }
+
+    	
+    
+    .rosica{
+    	margin-left: 30px;
+    	width: 300px;
+
+    }
+}
+
+/*@media(max-width:989px){
+	.school{
+    	
+    	width:40%;
+    }
+    .macedon{
+		width: 20%;
+		margin-left: 20px;
+	}
+
+    .rosica{
+    	margin-left: 20px;
+    	width: 30%;
+
+    }
+    .looking{
+        width: 40%;
+	    margin-left:10px;
+	}
+	.top_skills li{
+		color: white;
+		display:inline;
+		list-style: none;
+		
+	}
+    .top_skills{
+    	
+    	width: 30%;
+    }
+    .speech{
+    	width: 100%;
+    	margin-left: -60px;
+
+    }
+    .work{
+    	margin-left: -150px;
+    }
+    .over{
+    	width: 50%;
+    	margin-left: 10px;
+    }
+    .project{
+    	width: 100px;
+    }
+	   
+}*/
